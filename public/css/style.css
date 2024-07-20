@@ -1,0 +1,24 @@
+img{
+    height:300px;
+    width:300px;
+    box-shadow: 5px 5px 5px rgb(25, 244, 240);
+    display:block;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.pageMian{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.pageMian div{
+    margin:10px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition:0.2s;
+}
